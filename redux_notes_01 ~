@@ -1,0 +1,14 @@
+Stores
+
+Flux
+single directional data flow through your system
+
+
+Flux is a pattern and Redux is a library
+
+Redux 
+single store
+one source of truth
+no dispatcher
+immutable state
+
