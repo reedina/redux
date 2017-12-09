@@ -1,13 +1,56 @@
-
+-----------------------------------
 Flux
-single directional data flow through your system
+-----------------------------------
+- single directional data flow through your system
+- Flux is a pattern and Redux is a library
 
 
-Flux is a pattern and Redux is a library
-
+-----------------------------------
 Redux 
-single store
-one source of truth
-no dispatcher
-immutable state
+----------------------------------
+- single store
+- one source of truth
+- no dispatcher
+- immutable state
+
+--------------------------------------------------
+YARN
+--------------------------------------------------
+ npm install -g yarn
+yarn global add @angular/cli 
+
+ng set --global packageManager=yarn
+yarn add <name>   /// same as npm install  <name> --save
+
+
+--------------------------------------------------
+ Lodash
+--------------------------------------------------
+- a javascript utility library
+
+- Lodash makes JavaScript easier by taking the hassle out of working with arrays,
+numbers, objects, strings, etc. Lodash’s modular methods are great for:
+
+- Iterating arrays, objects, & strings
+- Manipulating & testing values
+- Creating composite functions
+
+use in application by doing this:
+
+import * as _ from 'lodash';
+
+npm install lodash --save
+ npm install @types/lodash --save-dev
+
+import * as _ from 'lodash';    // in main.ts so i can use it in the rest of my program
+
+
+
+
+
+
+
+
+
+
 
